@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+*:before,
+*:after {
+  content: "";
+  content: none;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background: rgb(250, 250, 250) url("../images/background.png") repeat-x right
+    bottom;
+  overflow-x: hidden;
+}
+
+.dino {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation-duration: 1s;
+}
+
+.cactus {
+  display: flex;
+  align-items: end;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 101px;
+  position: absolute;
+  bottom: 0;
+}
