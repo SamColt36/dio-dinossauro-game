@@ -12,7 +12,7 @@ const handleKeyUp = function (e) {
 
 const jump = function () {
   let position = 0;
-  const maxHeight = 140;
+  const maxHeight = 200;
 
   upMove(position, maxHeight);
   downMove(maxHeight);
@@ -43,3 +43,5 @@ const downMove = function (position, duration = 50) {
 };
 
 document.addEventListener("keydown", (e) => handleKeyUp(e));
+
+export { isJumping };

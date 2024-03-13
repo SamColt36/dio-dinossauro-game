@@ -27,17 +27,28 @@
     <link rel="manifest" href="./favicon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
     <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
     <title>Dino Game - DIO</title>
     <script type="module" src="./scripts/dom.js"></script>
     <script type="module" src="./scripts/random-number.js"></script>
+    <script type="module" src="./scripts/game-over.js"></script>
     <script type="module" src="./scripts/interation-dino.js"></script>
     <script type="module" src="./scripts/interation-cactus.js"></script>
 </head>
 
 <body>
-    <main>
-        <figure role="figure" class="container-dino">
-            <img src="./images/dino.png" alt="Imagem do dinossauro" role="img" class="dino">
+
+    <header role="heading">
+        <h1>T-rex Game</h1>
+        <h2>Points: <span id="points">0</span></h2>
+        <img src="./images/sprites/chrome.png" alt="" role="img">
+    </header>
+
+    <main class="background" role="main">
+        <figure role="figure" class="container-dino background" role="figure">
+            <img src="./images/sprites/dino.png" alt="Imagem do dinossauro" role="img" class="dino">
         </figure>
     </main>
 
