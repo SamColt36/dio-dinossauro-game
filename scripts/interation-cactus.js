@@ -27,7 +27,7 @@ const createCactus = function () {
   stylizeImage: cactus__sprites.forEach((sprite) => {
     sprite.setAttribute(
       "src",
-      `../images/sprites/obstacles/${randomNumberInterval(1, 11)}.png`
+      `/images/sprites/obstacles/${randomNumberInterval(1, 11)}.png`
     );
     sprite.setAttribute("alt", "Sprite cactus");
     sprite.style = {
