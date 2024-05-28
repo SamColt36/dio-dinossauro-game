@@ -35,7 +35,7 @@ gh repo clone SamColt36/dio-dinossauro-game
 
 ## 🌐 Acessar o projeto
 
-[Veja ao vivo aqui!](https://samcolt36.github.io/dio-dinossauro-game/)🔗
+[Veja ao vivo aqui!](https://dio-dinossauro-game.vercel.app/)🔗
 
 
 ## 👥 Contribuições
